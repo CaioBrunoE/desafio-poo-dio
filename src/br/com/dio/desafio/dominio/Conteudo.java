@@ -3,7 +3,7 @@ package br.com.dio.desafio.dominio;
 public abstract class Conteudo {
     protected static final Double XP_PADRAO = 10d;
     private String titulo;
-    private String descriacao;
+    private String descricao;
     public abstract Double caucularaXP();
     public String getTitulo() {
         return titulo;
@@ -11,10 +11,10 @@ public abstract class Conteudo {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    public String getDescriacao() {
-        return descriacao;
+    public String getDescricao() {
+        return descricao;
     }
-    public void setDescriacao(String descriacao) {
-        this.descriacao = descriacao;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
